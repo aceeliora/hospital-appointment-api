@@ -1,0 +1,27 @@
+
+> hospital-appointment-api@1.0.0 test:crud
+> tsx src/test.ts
+
+
+── Patients ──────────────────────────
+Created: Test Patient 8
+Found: Test Patient
+Updated phone: 8888888888
+Search results: 1
+
+── Doctors ───────────────────────────
+Created: Dr. Test 8
+General Medicine doctors: 1
+
+── Appointments ──────────────────────
+Booked: 11 for Test Patient
+Full fetch: Test Patient with Dr. Test
+Doctor schedule: 1 appointment(s)
+Status updated to: cancelled
+Scheduled patient appointments cancelled: 1
+Doctor deletion restriction: handled
+Appointment deleted: 11
+Patient deletion cascade: verified
+Doctor deleted after appointments were removed.
+
+All CRUD and relation checks passed.
